@@ -1,0 +1,27 @@
+{
+  "name": "my_devops",
+  "version": "1.0.0",
+  "description": "Dépôt personnel de configurations, scripts et pratiques DevOps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeYHVH1337/my_devops.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/zeYHVH1337/my_devops/issues"
+  },
+  "homepage": "https://github.com/zeYHVH1337/my_devops#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1"
+  }
+}
